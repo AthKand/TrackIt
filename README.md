@@ -2,7 +2,7 @@
 
 TrackIt was designed for the meticulous tracking of rodent navigation within a maze the Genzel Lab's Hex-Maze project. Developed as part of a master's thesis internship in 2023, TrackIt streamlines Hex-Maze data analysis by automating tracking to save time and enabling quantification of key metrics like dwell-times and node crossings during probe trials. 
 
-![Hex-Maze Overview](/resources/hex_upper.png) ![Hex-Maze Overview](/resources/hex_lower.png)
+<img src="/resources/hex_upper.png" width="250"> <img src="/resources/hex_lower.png" width="250">
 
 ## System Overview
 TrackIt employs multi-threaded operations to concurrently capture and analyze video frames, ensuring real-time processing without latency. The system's core functionality relies on contour detection within bounding boxes to accurately monitor mouse movements. TrackIt tracks and logs proximate nodes, essential for mapping the subject's navigational trajectory.
@@ -23,11 +23,11 @@ TrackIt is equipped to save experimental data in two distinct formats for compre
 
 The project features tools for creating heatmaps based on subject routes and performing dwell-time analysis through node proximity assessment. (see /analysis for more)
 
-![Graphical Path](/resources/path.png)
+<img src="/resources/path.png" width="250">
 
 For path-based analysis individual camera views were stitched and the resulting Homography matrix calculated through perspective warp and image stitching. Manual selection of points adjusts the lower camera view's perspective to match the upper one, complementing the analysis tools like heatmaps and dwell-time assessment.
 
-![Path Stitched](/resources/path_stitched.png "Stitched camera views with tracked path")
+<img src="/resources/path_stitched.png" width="250">
 
 ## Application Usage
 
